@@ -32,7 +32,7 @@ class Config(ConfigBase):
     warmup_max_lr: float = 2e-4
     dis_warmup_max_lr: float = 4e-4
     warmup_num_steps: int = 1_000
-    max_iter: int = 3_000
+    max_iter: int = 10_000
     gradient_clipping: float = 100
     eval_every: int = 1_000
     save_ckpt_every: int = 1_000
